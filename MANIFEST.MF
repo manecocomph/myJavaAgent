@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: com.tianxiaohui.java.agent.Attacher
+Agent-Class: com.tianxiaohui.java.agent.SampleAgent
+Premain-Class: com.tianxiaohui.java.agent.SampleAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Can-Set-Native-Method-Prefix: false
