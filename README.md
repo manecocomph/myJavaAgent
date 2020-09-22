@@ -10,7 +10,7 @@ This project is not a Maven project, just a Java project, which depends on 2 jar
 # how to use the agent
 1) get target Java PID by: pgrep java or jps
 2) run command:
-	1. java -jar myJavaAgent.jar <pid> listMBean
-	2. java -jar myJavaAgent.jar <pid> heapDump
-	3. java -jar myJavaAgent.jar <pid> threadDump
-	4. java -jar myJavaAgent.jar 69286 printDnsCache
+	1. java -jar myJavaAgent.jar pid listMBean
+	2. java -jar myJavaAgent.jar pid heapDump
+	3. java -jar myJavaAgent.jar pid threadDump
+	4. java -jar myJavaAgent.jar pid printDnsCache
