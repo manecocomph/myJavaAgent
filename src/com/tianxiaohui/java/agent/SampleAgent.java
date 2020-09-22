@@ -73,11 +73,11 @@ public class SampleAgent {
 			printUsage();
 		}
 		
-		System.out.println("work done!");
+		System.out.println("Work done!");
 	}
 
 	private static void printUsage() {
-		System.out.println("give me a parameter");
+		System.out.println("Which command do you want to run: listMBean, heapDump, threadDump, printDnsCache");
 	}
 
 	private static void listMBean() {
